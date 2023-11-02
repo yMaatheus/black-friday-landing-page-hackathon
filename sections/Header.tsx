@@ -1,9 +1,9 @@
 export interface Props {
-  source?: string;
+  logo_link?: string;
 }
 
 export default function Header({
-  source =
+  logo_link =
     "https://png.pngtree.com/png-vector/20220330/ourmid/pngtree-calligraphy-template-for-electronics-store-design-print-label-layout-vector-png-image_27708338.png",
 }: Props) {
   return (
@@ -16,7 +16,7 @@ export default function Header({
             aria-label="Store logo"
           >
             <img
-              src={source}
+              src={logo_link}
               alt="Store logo"
               width="126"
               height="16"
