@@ -9,7 +9,7 @@ export default function Header({
   return (
     <>
       {/* Mobile Version */}
-      <div className="md:hidden flex bg-base-100 fixed w-full z-50">
+      <div className="md:hidden flex bg-base-100 w-full z-50">
         <div className="md:hidden flex flex-row justify-between items-center m-auto mt-3 w-11/12">
           <div className="flex-none w-44">
             <a
@@ -38,7 +38,7 @@ export default function Header({
       </div>
 
       {/* Desktop Version */}
-      <div className="hidden md:flex bg-base-100 fixed w-full z-50">
+      <div className="hidden md:flex bg-base-100 w-full z-50">
         <div className="hidden md:flex flex-row justify-between items-center m-auto mt-3 w-11/12">
           <div className="flex-none w-44">
             <a
