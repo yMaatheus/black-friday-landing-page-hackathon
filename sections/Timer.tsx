@@ -114,7 +114,7 @@ function Timer({
 
   return (
     <>
-      <div class="bg-neutral-900 text-neutral-50 -content">
+      <div class="bg-base-200 text-neutral-50 -content">
         <div class="container mx-auto flex flex-col lg:flex-row lg:items-center lg:justify-center lg:gap-16 py-4 px-6 gap-4 ">
           {layout?.textPosition !== "After counter" &&
             (
