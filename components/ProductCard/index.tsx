@@ -51,7 +51,7 @@ function ProductCard({ product }: Props) {
 
           <div className="flex gap-1">
             {getTotalDiscount() > 0 && (
-              <div className="rounded-2xl bg-green-600 text-white px-2">
+              <div className="rounded-2xl bg-green-600 px-2">
                 {getTotalDiscount()}%
               </div>
             )}
