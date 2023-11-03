@@ -1,6 +1,3 @@
-import Icon from "$store/components/ui/Icon.tsx";
-// import { useState } from 'preact/hooks';
-
 export interface Props {
   logo_link?: string;
 }
@@ -9,16 +6,8 @@ export default function Header({
   logo_link =
     "https://png.pngtree.com/png-vector/20220330/ourmid/pngtree-calligraphy-template-for-electronics-store-design-print-label-layout-vector-png-image_27708338.png",
 }: Props) {
-  // const [menu, setMenu] = useState(false);
-
-  // const toggleMenu = () => {
-  //   setMenu(!menu);
-  // };
-
   return (
     <>
-      {/* {menu && <div>Olá</div>} */}
-
       {/* Mobile Version */}
       <div className="md:hidden flex bg-base-100 fixed w-full z-50">
         <div className="md:hidden flex flex-row justify-between items-center m-auto mt-3 w-11/12">
@@ -44,9 +33,6 @@ export default function Header({
                 <span className="group-hover:underline">Início</span>
               </a>
             </li>
-            {/* <button title="menu button" type="button">
-              <Icon id="Bars3" size={24} strokeWidth={0.01} />
-            </button> */}
           </div>
         </div>
       </div>
