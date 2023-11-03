@@ -39,9 +39,14 @@ export default function Header({
             </a>
           </div>
           <div className="flex-auto flex justify-end">
-            <button title="menu button" type="button">
+            <li className="group flex items-center">
+              <a className="px-4 py-3" href="/">
+                <span className="group-hover:underline">Início</span>
+              </a>
+            </li>
+            {/* <button title="menu button" type="button">
               <Icon id="Bars3" size={24} strokeWidth={0.01} />
-            </button>
+            </button> */}
           </div>
         </div>
       </div>
