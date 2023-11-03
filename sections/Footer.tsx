@@ -9,7 +9,7 @@ export default function Header({
 }: Props) {
   return (
     <>
-      <div className="flex bg-base-100 fixed w-full z-50">
+      <div className="flex bg-base-100 w-full z-50">
         <div className="flex flex-row justify-between items-center m-auto mt-3 w-11/12">
           <div className="flex flex-row w-80">
             <span className="m-auto group-hover:underline">
