@@ -56,10 +56,17 @@
         "__resolveType": "website/sections/Seo/Seo.tsx",
         "titleTemplate": "%s | Start by deco.cx"
       },
-      { "__resolveType": "deco-sites/start/sections/Footer.tsx" },
-      { "__resolveType": "deco-sites/start/sections/Newsletter.tsx" }
+      { "__resolveType": "deco-sites/start/sections/Footer.tsx" }
     ],
     "name": "Home - Start",
     "path": "/"
+  },
+  "vtex": {
+    "appKey": "vtexappkey-bravtexfashionstore-VCSBOC",
+    "account": "bravtexfashionstore",
+    "appToken": "FWXIWXGDEVTPKERCJIVFXDCEEFUXCBUOBKWZYVYHCUYXJANQUUVRTZUKIWIESDXJXNAMRQBIZFYMSCIKHHWGMEBRZDBEHQLXOXNDCIFAASMVKFOOSTXRPXCCMVQDDEGB",
+    "platform": "vtex",
+    "publicUrl": "fashion.bravtexstores.com.br",
+    "__resolveType": "decohub/apps/vtex.ts"
   }
 }
