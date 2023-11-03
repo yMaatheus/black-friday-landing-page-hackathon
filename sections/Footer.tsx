@@ -8,13 +8,13 @@ export default function Footer({
     "https://png.pngtree.com/png-vector/20220330/ourmid/pngtree-calligraphy-template-for-electronics-store-design-print-label-layout-vector-png-image_27708338.png",
 }: Props) {
   return (
-    <div className="flex flex-row bg-base-300 m-auto justify-between items-center">
-      <div className="flex flex-row w-80">
+    <div className="flex flex-row bg-base-300 m-auto justify-around items-center p-4">
+      <div className="flex flex-row">
         <span className="m-auto group-hover:underline">
           Desenvolvido por:
         </span>
         <a
-          className="block px-4 py-3 w-[160px]"
+          className="block px-4 py-3"
           href="/"
           aria-label="Store logo"
         >
@@ -29,7 +29,7 @@ export default function Footer({
         </a>
       </div>
       <div className="flex justify-end flex-col items-center gap-2">
-        <span className="px-4">Powered by:</span> <PoweredByDeco width={76} />
+        <span>Powered by:</span> <PoweredByDeco width={76} />
       </div>
     </div>
   );

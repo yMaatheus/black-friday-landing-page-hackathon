@@ -31,7 +31,7 @@ function ProductCard({ product }: Props) {
   };
 
   return (
-    <div className="w-72 shrink-0 rounded-lg bg-neutral-900 select-none">
+    <div className="w-48 shrink-0 rounded-lg bg-neutral-900 select-none sm:w-72">
       <a href={product.isVariantOf?.url}>
         <div className="relative mb-1">
           <Image

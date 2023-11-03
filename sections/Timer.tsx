@@ -115,11 +115,11 @@ function Timer({
   return (
     <>
       <div class="bg-base-200 text-neutral-50 -content">
-        <div class="container mx-auto flex flex-col lg:flex-row lg:items-center lg:justify-center lg:gap-16 py-4 px-6 gap-4 ">
+        <div class="container mx-auto flex flex-col justify-center items-center py-4 px-6 sm:flex-row sm:justify-evenly">
           {layout?.textPosition !== "After counter" &&
             (
               <div
-                class="text-sm text-center lg:text-xl lg:text-left lg:max-w-lg"
+                class="w-80 text-sm text-center lg:text-xl lg:text-left lg:max-w-lg whitespace-nowrap"
                 dangerouslySetInnerHTML={{ __html: text }}
               >
               </div>
