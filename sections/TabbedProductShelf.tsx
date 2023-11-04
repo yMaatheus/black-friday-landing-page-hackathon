@@ -1,5 +1,5 @@
 import Icon from "$store/components/ui/Icon.tsx";
-import Header from "$store/components/ui/SectionHeader.tsx";
+import SectionHeader from "$store/components/ui/SectionHeader.tsx";
 import Slider from "$store/components/ui/Slider.tsx";
 import SliderJS from "$store/islands/SliderJS.tsx";
 import { useId } from "$store/sdk/useId.ts";
@@ -42,7 +42,7 @@ export default function TabbedProductShelf({
 
   return (
     <div class="w-full container  py-8 flex flex-col gap-8 lg:gap-12 lg:py-10">
-      <Header
+      <SectionHeader
         title={title || ""}
         description={description || ""}
         fontSize={layout?.headerfontSize || "Large"}

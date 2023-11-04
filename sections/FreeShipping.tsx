@@ -1,5 +1,7 @@
+import { HTMLWidget } from "apps/admin/widgets.ts";
+
 export interface Props {
-  title?: string;
+  title?: HTMLWidget;
   color?: string;
 }
 
@@ -13,7 +15,7 @@ export default function FreeShipping({ title = "Frete Grátis", color }: Props) 
       className="box-decoration-slice bg-gradient-to-r from--600 to-pink-500 text-white p-2"
       style={boxStyle}
     >
-    <h3 className="text-center">{title}</h3>
+      <div className="text-center" dangerouslySetInnerHTML={{ __html: title }} />
     </div>
   );
 }

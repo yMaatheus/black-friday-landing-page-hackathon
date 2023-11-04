@@ -1,5 +1,5 @@
 import Icon from "$store/components/ui/Icon.tsx";
-import Header from "$store/components/ui/SectionHeader.tsx";
+import SectionHeader from "$store/components/ui/SectionHeader.tsx";
 import Slider from "$store/components/ui/Slider.tsx";
 import SliderJS from "$store/islands/SliderJS.tsx";
 import { useId } from "$store/sdk/useId.ts";
@@ -29,8 +29,8 @@ export default function ProductShelf({
   }
 
   return (
-    <div class="w-full container  py-8 flex flex-col gap-12 lg:gap-16 lg:py-5">
-      <Header
+    <div class="w-full container py-8 flex flex-col gap-12 lg:gap-16 lg:py-5">
+      <SectionHeader
         title={title || ""}
         description={description || ""}
         fontSize={layout?.headerfontSize || "Large"}

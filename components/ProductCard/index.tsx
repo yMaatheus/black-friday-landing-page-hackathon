@@ -70,7 +70,7 @@ function ProductCard({ product }: Props) {
               : null}
           </span>
 
-          <span className="my-1 text-purple-600 font-semibold text-left">
+          <span className="my-1 text-red-600 font-semibold text-left">
             Black Friday
           </span>
         </div>

@@ -2,35 +2,39 @@
 // This file SHOULD be checked into source version control.
 // This file is automatically updated during development when running `dev.ts`.
 
-import * as $$$$$$0 from "./sections/Newsletter.tsx";
-import * as $$$$$$1 from "./sections/DiscountsCategory.tsx";
-import * as $$$$$$2 from "./sections/Faq.tsx";
-import * as $$$$$$3 from "./sections/Reviews.tsx";
-import * as $$$$$$4 from "./sections/Timer.tsx";
-import * as $$$$$$5 from "./sections/Header.tsx";
-import * as $$$$$$6 from "./sections/TabbedProductShelf.tsx";
-import * as $$$$$$7 from "./sections/BlackFridayLogo.tsx";
-import * as $$$$$$8 from "./sections/FreeShipping.tsx";
-import * as $$$$$$9 from "./sections/Theme.tsx";
-import * as $$$$$$10 from "./sections/Footer.tsx";
-import * as $$$$$$11 from "./sections/ProductShelf.tsx";
+import * as $$$$$$0 from "./sections/FeaturedProduct.tsx";
+import * as $$$$$$1 from "./sections/Newsletter.tsx";
+import * as $$$$$$2 from "./sections/DiscountsCategory.tsx";
+import * as $$$$$$3 from "./sections/Faq.tsx";
+import * as $$$$$$4 from "./sections/Reviews.tsx";
+import * as $$$$$$5 from "./sections/Timer.tsx";
+import * as $$$$$$6 from "./sections/Header.tsx";
+import * as $$$$$$7 from "./sections/TabbedProductShelf.tsx";
+import * as $$$$$$8 from "./sections/BlackFridayLogo.tsx";
+import * as $$$$$$9 from "./sections/FreeShipping.tsx";
+import * as $$$$$$10 from "./sections/Theme.tsx";
+import * as $$$$$$11 from "./sections/Footer.tsx";
+import * as $$$$$$12 from "./sections/ProductShelf.tsx";
+import * as $$$$$$13 from "./sections/MainOffer.tsx";
 import * as $$$$$$$$$$$0 from "./apps/site.ts";
 import * as $$$$$$$$$$$1 from "./apps/decohub.ts";
 
 const manifest = {
   "sections": {
-    "deco-sites/start/sections/BlackFridayLogo.tsx": $$$$$$7,
-    "deco-sites/start/sections/DiscountsCategory.tsx": $$$$$$1,
-    "deco-sites/start/sections/Faq.tsx": $$$$$$2,
-    "deco-sites/start/sections/Footer.tsx": $$$$$$10,
-    "deco-sites/start/sections/FreeShipping.tsx": $$$$$$8,
-    "deco-sites/start/sections/Header.tsx": $$$$$$5,
-    "deco-sites/start/sections/Newsletter.tsx": $$$$$$0,
-    "deco-sites/start/sections/ProductShelf.tsx": $$$$$$11,
-    "deco-sites/start/sections/Reviews.tsx": $$$$$$3,
-    "deco-sites/start/sections/TabbedProductShelf.tsx": $$$$$$6,
-    "deco-sites/start/sections/Theme.tsx": $$$$$$9,
-    "deco-sites/start/sections/Timer.tsx": $$$$$$4,
+    "deco-sites/start/sections/BlackFridayLogo.tsx": $$$$$$8,
+    "deco-sites/start/sections/DiscountsCategory.tsx": $$$$$$2,
+    "deco-sites/start/sections/Faq.tsx": $$$$$$3,
+    "deco-sites/start/sections/FeaturedProduct.tsx": $$$$$$0,
+    "deco-sites/start/sections/Footer.tsx": $$$$$$11,
+    "deco-sites/start/sections/FreeShipping.tsx": $$$$$$9,
+    "deco-sites/start/sections/Header.tsx": $$$$$$6,
+    "deco-sites/start/sections/MainOffer.tsx": $$$$$$13,
+    "deco-sites/start/sections/Newsletter.tsx": $$$$$$1,
+    "deco-sites/start/sections/ProductShelf.tsx": $$$$$$12,
+    "deco-sites/start/sections/Reviews.tsx": $$$$$$4,
+    "deco-sites/start/sections/TabbedProductShelf.tsx": $$$$$$7,
+    "deco-sites/start/sections/Theme.tsx": $$$$$$10,
+    "deco-sites/start/sections/Timer.tsx": $$$$$$5,
   },
   "apps": {
     "deco-sites/start/apps/decohub.ts": $$$$$$$$$$$1,

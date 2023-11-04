@@ -1,10 +1,12 @@
+import Icon from "$store/components/ui/Icon.tsx";
+
 export interface Props {
   logo_link?: string;
 }
 
 export default function Header({
   logo_link =
-    "https://png.pngtree.com/png-vector/20220330/ourmid/pngtree-calligraphy-template-for-electronics-store-design-print-label-layout-vector-png-image_27708338.png",
+  "https://png.pngtree.com/png-vector/20220330/ourmid/pngtree-calligraphy-template-for-electronics-store-design-print-label-layout-vector-png-image_27708338.png",
 }: Props) {
   return (
     <>
@@ -30,7 +32,7 @@ export default function Header({
           <div className="flex-auto flex justify-end">
             <li className="group flex items-center">
               <a className="px-4 py-3" href="/">
-                <span className="group-hover:underline">Início</span>
+                <Icon id="Bars3" size={24} strokeWidth={0.01} />
               </a>
             </li>
           </div>
